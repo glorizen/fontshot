@@ -15,5 +15,4 @@ positional arguments:
 optional arguments:
   -h, --help        show this help message and exit
   -aegisub AEGISUB  path to executable of Aegisub application. [default:
-                    C:\Program Files (x86)\Aegisubegisub32.exe]
-```
+                    C:\Program Files (x86)\Aegisubegisub32.exe]```
