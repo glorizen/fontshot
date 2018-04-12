@@ -18,3 +18,20 @@ optional arguments:
   -aegisub AEGISUB  path to executable of Aegisub application. [default:
                     C:\Program Files (x86)\Aegisub\aegisub32.exe]
 ```
+
+## Execution
+============
+Setup virtual environment for your python.
+`virutalenv -p path\to\python.exe myvenv`
+
+Activate your environment.
+`myvenv\Scripts\activate.bat`
+
+Install libraries required.
+`pip install pywinauto` & `pip install fontTools`
+
+Check if script is running correctly.
+`python script.py`
+
+Sample usage:
+`python script.py path\to\my\fonts\folder path\to\my\aegisub.exe`
