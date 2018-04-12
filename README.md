@@ -21,26 +21,9 @@ optional arguments:
 
 ## Execution
 
-Install `virtualenv` library for your python3.
-
-`pip3 install virtualenv`
-
-Setup virtual environment for your python.
-
-`virutalenv -p path\to\python.exe myvenv`
-
-Activate your environment.
-
-`myvenv\Scripts\activate.bat`
-
-Install libraries required.
-
-`pip install pywinauto` & `pip install fontTools`
-
-Check if script is running correctly.
-
-`python script.py`
-
-Sample usage:
-
-`python script.py path\to\my\fonts\folder path\to\my\aegisub.exe`
+Install `virtualenv` library for your python3: `pip3 install virtualenv`
+Setup virtual environment for your python: `virutalenv -p path\to\python.exe myvenv`
+Activate your environment: `myvenv\Scripts\activate.bat`
+Install libraries required: `pip install pywinauto` & `pip install fontTools`
+Check if script is running correctly: `python script.py`
+Sample usage: `python script.py path\to\my\fonts\folder path\to\my\aegisub.exe`
