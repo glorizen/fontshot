@@ -21,7 +21,7 @@ optional arguments:
 
 ## Execution
 
-*Install* `virtualenv` library for your python3: `pip3 install virtualenv`
+Install `virtualenv` library for your python3: `pip3 install virtualenv`
 
 Setup virtual environment for your python: `virutalenv -p path\to\python.exe myvenv`
 
