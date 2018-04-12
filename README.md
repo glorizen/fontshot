@@ -31,4 +31,4 @@ Install libraries required: `pip install pywinauto` & `pip install fontTools`
 
 Check if script is running correctly: `python script.py`
 
-Sample usage: `python script.py path\to\my\fonts\folder path\to\my\aegisub.exe`
+Sample usage: `python script.py path\to\my\fonts\folder -aegisub path\to\my\aegisub.exe`
