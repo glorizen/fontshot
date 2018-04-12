@@ -7,7 +7,6 @@ This script is not fail-safe at all. You MUST not press any key during
 execution of this script. Your open windows might close abruptly.
 
 ```
-text
 python script.py -h
 usage: script.py [-h] [-aegisub AEGISUB] path
 
