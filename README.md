@@ -7,16 +7,18 @@ This script is not fail-safe at all. You MUST not press any key during
 execution of this script. Your open windows might close abruptly.
 
 ```
-python script.py -h
-usage: script.py [-h] [-aegisub AEGISUB] path
+usage: script.py [-h] [--force-delay] [-delay DELAY] [-aegisub AEGISUB] path
 
 positional arguments:
   path              path to a font file or to a folder containing fonts.
 
 optional arguments:
   -h, --help        show this help message and exit
+  --force-delay     forces delay (if given) after each key input.
+  -delay DELAY      adds delay (in seconds) to keyboard inputs. Values can be
+                    float too. (e.g. -delay 0.25)
   -aegisub AEGISUB  path to executable of Aegisub application. [default:
-                    C:\Program Files (x86)\Aegisub\aegisub32.exe]
+                    C:\Program Files (x86)\Aegisubegisub32.exe]
 ```
 
 ## Execution
